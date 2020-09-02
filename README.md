@@ -1,6 +1,4 @@
-#### TODO LIST DJANGO API REST
-
----
+### TODO LIST DJANGO API REST
 
 #### Description
 
