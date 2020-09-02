@@ -2,7 +2,7 @@
 
 #### Description
 
-RESTful services for a simple toDo list make with Django and Django-Rest-Framework. You can find the client for this API Rest in this other [git repo](https://github.com/IvannLovich/todoList-Client)
+RESTful services for a simple toDo list make with Django and Django-Rest-Framework and deployed by Heroku. You can find the client for this API Rest in this other [git repo](https://github.com/IvannLovich/todoList-Client)
 
 ---
 
