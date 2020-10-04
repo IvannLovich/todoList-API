@@ -1,7 +1,11 @@
+dist: xenial
 language: python
 python:
-  - "3.8.5"
+- 3.6
 install:
-  - pip install -r requirements.txt
+- pip install -r requirements.txt
 script:
-  - python manage.py test 
+- python manage.py test
+env:
+  global:
+  - secure: Fzn+bSUKp9uMoBoW+cY9vk2w27o0c4dQ4+N8fzqI65h/7ZdlhuAR51dPVG9iR50HdYVpMu+twkbGxHwabbpxB8UOFeFmGMHtf5oKZO1vXLGJmpwNxj3vH9Iao0uX/CEhBjUF4t5jzFHaxVhksWjK+/y7juI7MdbfETbsYcPiA4Gh7OftwFjUB+RjHcx8PvChki8q71INh31JMhyhpuq2ZuoSYjlmi2+DT9n34bLTh9Vf9RmzZKvCjnNBYEFfmv5zeefXqKnfLU8GthCxIvZJWkP9uoU+fD0wcy1XFPQs4joVgt7cIMFyzUWmo3sjP8Vennllx8Uxla997mFEY5L7cyQE+dFZzDgY6l5zkWyFrCVlp8bkjUkKEIY1sajEyT5ctFJCkwOC6suEBB64oJ0hF9Jpu6rFgVu3fcI6I7qDNd8TIdsrnAJ0NzDdIKjiRXlqNi0LEB0k5HQaS25saesrVom4/eidmO26ozf++Oy//13uvD62TVkO7aOlwhl9TKSz9YmIjy8yqEaxxzg4WWO7uAIA/Z80A6JXOE3fPqaCfjTiL5qoXKL1Xw8OTEpI79/tc86niMgDgwFjSFzZLzUjfxnWFXT7x9evZXBmE4jtIe7OeTkPMsgk0zbd1F44T+diISjQWDgn12swHfjfGgejcKxontVwIreCVAd6SCPIzWQ=
