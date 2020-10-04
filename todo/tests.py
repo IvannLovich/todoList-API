@@ -4,7 +4,7 @@ from .models import Folder
 
 client = Client()
 
-class EndpointsTestCase(TestCase):
+class MainEndpointsTestCase(TestCase):
 
     def test_folder_endpoint(self):
         response = client.get('/api/todo/folders/')
