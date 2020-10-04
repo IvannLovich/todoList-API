@@ -20,6 +20,7 @@ from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from todo.urls import urlpatterns as todo_viewsets
+from users.urls import urlpatterns as users_viewsets
 
 
 schema_view = get_schema_view(
@@ -45,5 +46,6 @@ urlpatterns = [
                                          cache_timeout=0), name='schema-redoc'),
 
     path('admin/', admin.site.urls),
-    path('api/todo/', include(todo_viewsets))
+    path('api/todo/', include(todo_viewsets)),
+    path('api/users/', include(users_viewsets)),
 ]

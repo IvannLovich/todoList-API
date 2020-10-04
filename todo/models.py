@@ -3,6 +3,7 @@ from django.db import models
 
 class Folder(models.Model):
     name = models.TextField(max_length=100)
+    user = models.ForeignKey('users.User', related_name='folders', on_delete=models.CASCADE)
 
     def __repr__(self):
         return self.name
