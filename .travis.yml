@@ -1,7 +1,10 @@
 language: python
 python:
-  - "3.8.5"
+- 3.8.5
 install:
-  - pip install -r requirements.txt
+- pip install -r requirements.txt
 script:
-  - python manage.py test 
+- python manage.py test
+env:
+  global:
+    secure: YVSVZowrzDY9TMof7tSsjhxzBXMMXN2y9Rb0MLDhoWzqJaxFng7lSYc6aG+fB/G8TAmkWi1aFWuW5vdX7WFDb5TyWQG0ttmbzL1NdR9ObqQU7eQAJWapx6kkvlSOX6MolSvpx5RVgMZKo5/uRAnKDJeG99xt+mZ8zCNPPCesiz+0+wCgicXX9wrNfBYG0bI0hmHCo0YOO9Hdj9rmS9KhkF6/+/9NpMAM6/kdrjVsxtXecV9yVFvU5cYekNn9eCMTQ2LfcBQdpGcmw7ZDPDuQAH46/X5u6CFb1F77X5OeFadj8iuHiatk3LcnstqOInW3VRZmpjXaJU23Uk8PKL8b3Akm9AGHStSGEJcDbuVtbol+kaeJcpJ1wmG4j5qQHNKgy/70t9XqNp2LuT1q9CqQOSS7zfl9KSXKIDcetl+/BYwinn9jWOgKjH9HA9xbAweGiPCTA/Jfbk8bGILdCpuTxpjNMQ8NNmhyuiqVBdyih2TQS2Yf7SKtJl5puK9uPCJLWLL3z3urjSHxbdg7pmcRQ305iZj+x1wLi8+8BgdUUpln946IqIf9Z+p2iOrACIOX6Am3UE3B0kfvmCEAVx5Vgu51eGjomlcFujNHaKeboOZljJzqZuJi0HSegyR6bjwT7ScA2W7uQD2WBrMp4flWv8p6YpO7cOajfO1VV0Xdt/k=
