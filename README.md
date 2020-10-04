@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/IvannLovich/todoList-API.svg?branch=master)](https://travis-ci.com/IvannLovich/todoList-API)
+
 ### TODO LIST DJANGO API REST
 
 #### Description
